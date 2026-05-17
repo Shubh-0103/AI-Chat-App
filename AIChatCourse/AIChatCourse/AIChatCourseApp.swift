@@ -9,9 +9,21 @@ import SwiftUI
 
 @main
 struct AIChatCourseApp: App {
+    @State private var showSplash = true
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            if showSplash {
+                LaunchView()
+                    .onAppear {
+                        DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+                            withAnimation(.easeOut(duration: 0.5)) {
+                                showSplash = false
+                            }
+                        }
+                    }
+            } else {
+                ContentView()
+            }
         }
     }
 }

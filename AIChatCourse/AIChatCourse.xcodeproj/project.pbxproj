@@ -29,9 +29,22 @@
 		0DC908342FB8A433004F44E0 /* AIChatCourseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AIChatCourseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		0D2053162FB9C28B008B43B7 /* Exceptions for "AIChatCourse" folder in "AIChatCourse" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 0DC9081C2FB8A432004F44E0 /* AIChatCourse */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		0DC9081F2FB8A432004F44E0 /* AIChatCourse */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				0D2053162FB9C28B008B43B7 /* Exceptions for "AIChatCourse" folder in "AIChatCourse" target */,
+			);
 			path = AIChatCourse;
 			sourceTree = "<group>";
 		};
@@ -394,6 +407,8 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AIChatCourse/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "AI Chat";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -436,6 +451,8 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AIChatCourse/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "AI Chat";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
