@@ -15,10 +15,7 @@ struct AppView: View {
         AppViewBuilder(
             showTabBar: showTabBar,
             tabBarView: {
-                ZStack {
-                    Color.red.ignoresSafeArea()
-                    Text("Tab Bar")
-                }
+                TabBarView()
             },
             onBoardingView: {
                 ZStack {
