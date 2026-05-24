@@ -21,7 +21,7 @@ struct ProfileView: View {
                 }
         }
         .sheet(isPresented: $showSettingsView) {
-            Text("Settings")
+            SettingsView()
         }
     }
     private var settingsButton: some View {

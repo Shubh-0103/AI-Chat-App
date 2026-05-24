@@ -22,7 +22,7 @@ struct AIChatCourseApp: App {
                         }
                     }
             } else {
-                ContentView()
+                AppView()
             }
         }
     }
