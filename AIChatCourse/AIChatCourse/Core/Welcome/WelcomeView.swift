@@ -30,7 +30,7 @@ struct WelcomeView: View {
                             .foregroundStyle(.secondary)
 
                         VStack(spacing: 20) {
-                            
+
                             buttonView
 
                             VStack(spacing: 30) {
@@ -47,7 +47,7 @@ struct WelcomeView: View {
 
     private var buttonView: some View {
         NavigationLink {
-            OnboardingCompletedView()
+            OnboardingIntroView()
 
         } label: {
             Text("Get Started")
