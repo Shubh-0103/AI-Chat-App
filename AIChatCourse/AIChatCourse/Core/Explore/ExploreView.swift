@@ -8,10 +8,17 @@
 import SwiftUI
 
 struct ExploreView: View {
+    
+    let avatar = AvatarModels.mocks.first
     var body: some View {
         NavigationStack {
-            Text("Explore")
-                .navigationBarTitle("Explore")
+            HeroCellView(
+                title: avatar?.name,
+                subtitle: avatar?.characterDescription,
+                image: avatar?.profileImageName
+            )
+            .frame(height: 200)
+            .navigationTitle("Explore")
         }
     }
 }

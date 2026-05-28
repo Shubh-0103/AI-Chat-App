@@ -9,7 +9,7 @@ import SwiftUI
 
 struct HeroCellView: View {
     var title: String? = "Hello"
-    var subtitle: String? = "World!"
+    var subtitle: String? = "World is a asbas ca a anaac!"
     var image: String? = Constants.randomImageUrl
 
     var body: some View {
@@ -25,7 +25,7 @@ struct HeroCellView: View {
         .overlay(
             alignment: .bottomLeading,
             content: {
-                VStack {
+                VStack(alignment: .leading) {
                     if let title = title {
                         Text(title)
                             .font(.headline)
